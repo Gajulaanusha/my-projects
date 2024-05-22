@@ -1,0 +1,199 @@
+*{
+    margin:0;
+    padding:0;
+}
+main{
+    background-image:url("images/netflix.jpg");
+    height:700px;
+}
+.name{
+    font-size:20px;
+    color:red;
+    margin-left:50px;
+    font-family:sans-serif;
+}
+.combo{
+    margin-top:-40px;
+    height:100px;
+    width:180px;
+    margin-left:80%;
+    display:flex;
+}
+.combo select {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    background: rgb(35, 35, 35);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+}
+#btn{
+    width:80px;
+    height:30px;
+    color:white;
+    background:red;
+    border-radius:10px;
+    margin-left:50%;
+    text-align:center;
+    font-size:16px;
+    border:none;
+}
+.container{
+    text-align:center;
+    margin-top:150px;
+}
+.txt{
+    color:white;
+    font-size:50px;
+    font-family:sans-serif;
+}
+.txt2{
+    color:white;
+    font-size:23px; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav{
+    margin-top:30px;
+    align-items:center;
+    justify-content:space-evenly;
+    display:flex;
+    height:100px;
+    width:560px;
+    margin-left:30%;
+}
+#email{
+    color:white;
+    background:rgb(35,35,35);
+    height:50px;
+    width:320px;
+    border-radius:10px;
+    padding-left:15px;
+    font-size:15px;
+}
+#strt{height:55px;
+    width:200px;
+    border-radius:10px;
+    padding-left:15px;
+    font-size:15px;
+    background:red;
+    color:rgb(255,255,255);
+    border:none;
+}
+button:hover{
+    opacity:80%;
+}
+footer{
+    display:flex;
+    justify-content:space-evenly;
+    height:400px;
+    background:rgba(0, 0, 0, 0.932);
+}
+.hr{
+    height:10px;
+    background:rgb(35, 35, 35);
+}
+footer ul{
+    margin-top:30px;
+    list-style-type:none;
+    line-height:40px;
+    text-transform:capitalize;
+}
+footer a,p{
+    color:rgba(245, 245, 245, 0.773);
+}
+footer .combo2{
+    background:rgb(35, 35, 35);
+    font-size:18px;
+    color:white;
+    height:30px;
+    width:100px;
+    text-align:center;
+}
+.quesbox{
+    margin:auto;
+    background:rgba(0, 0, 0, 0.932);
+    color:white;
+}
+.quesbox h3{
+    padding:20px;
+    text-align:center;
+    font-size:40px;
+    font-family:sans-serif;
+}
+.quesbox li{
+    list-style-type:none;
+    border:2px solid black;
+}
+.quesbox label{
+    background:rgba(58, 57, 57, 0.479);
+    padding-left:20px;
+    border-radius:5px solid black;
+    margin-right:150px;
+    margin-left:150px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size:25px;
+    cursor:pointer;    
+}
+[type="radio"]{
+    display:none;
+}
+label:hover{
+    transition:all 0.5s ease-in 0s;
+    background:rgba(105, 104, 104, 0.852);
+    border:2px solid white;
+}
+label::after{
+    content:"+";
+    padding-right:5%;
+    font-weight:bold;
+    font-size:60px;
+}
+/*label.active::after{
+    content:"-";
+}*/
+.quesbox .content{
+    background:rgba(58, 57, 57, 0.479);
+    margin-right:150px;
+    margin-left:150px;
+    margin-top:5px;
+    padding:0 10px;
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.5s;
+}
+.quesbox input[type="radio"]:checked + label + .content{
+    max-height:400px;
+    padding:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

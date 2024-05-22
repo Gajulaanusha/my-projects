@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <link rel="stylesheet" href="netflix.css">
+    <link rel="icon" href="images/netflixlogo.png">
+</head>
+<body>
+    <main>
+            <div class="name">
+                <h1>NETFLIX</h1>
+            </div>   
+            <div class="combo">
+                <select>
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+                 <div class="bt1">
+                    <button type="submit" id="btn">sign in</button>
+                </div>
+            </div>
+            <div class="container">
+                <h1 class="txt">unlimited movies, TV shows and more</h1><br>
+                <p class="txt2">Watch anywhere.Cancel anytime.</p><br>
+                <p class="txt2">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+
+            <nav>
+                <div class="nav1">
+                    <input type="text" id="email" placeholder="Email address">
+                </div>
+                <div class="nav2">
+                    <button type="button" id="strt" onclick="Focusbox()" ><h3>Get Started&nbsp;&nbsp; ></h3></button>
+                </div>
+            </nav>
+        </main>    
+            <div class="hr"></div>
+
+            <article class="quesbox">
+                <h3><b>Frequently Asked Questions</b></h3>
+                <ul>
+                    <li>
+                        <input type="radio" id="radiobtn1">
+                        <label for="radiobtn1">what is netflix?</label>
+                        <div class="content">
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+                    
+                            You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                        </div>
+                    </li><br>
+                    <li>
+                        <input type="radio" id="radiobtn2">
+                        <label for="radiobtn2">how much does netflix cost?</label>
+                        <div class="content">
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+                        </div>
+                    </li><br>
+                    <li>
+                        <input type="radio" id="radiobtn3">
+                        <label for="radiobtn3">where can i watch?</label>
+                        <div class="content">
+                        <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+                            You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            <footer>
+                <ul>
+                    <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                    <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">investor relations</a></li>
+                    <li><a href="https://help.netflix.com/legal/privacy">privacy</a></li>
+                    <li><a href="https://fast.com/">speed test</a></li>
+                    <li> <select class="combo2">
+                        <option>English</option>
+                        <option>Hindi</option>
+                    </select></li>
+                    <li><p>netflix india</p></li>
+                </ul>
+                <ul>
+                    <li><a href="https://help.netflix.com/en/">Help centre</a></li>
+                    <li><a href="https://jobs.netflix.com/">jobs</a></li>
+                    <li><a href="">cookie preferences</a></li>
+                    <li><a href="https://help.netflix.com/legal/notices">legal notices</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">account</a></li>
+                    <li><a href="https://help.netflix.com/en/node/14361">ways to watch</a></li>
+                    <li><a href="https://help.netflix.com/en/node/134094">corporate information</a></li>
+                    <li><a href="https://www.netflix.com/in/browse/genre/839338">only on netflix</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://media.netflix.com/en/">media centre</a></li>
+                    <li><a href="https://help.netflix.com/legal/termsofuse">terms of use</a></li>
+                    <li><a href="https://help.netflix.com/en/contactus">contact us</a></li>
+                </ul>
+            </footer>
+
+            <script>
+                function Focusbox(){
+                const btn=document.querySelector("#email");
+                btn.focus();
+                }
+
+               /* const labels=document.querySelectorAll("label");
+                labels.forEach(label=>{;
+                label.addEventListener("click",event=>{
+                   label.classList.toggle("active");
+                })
+               
+                
+            });*/
+            </script>
+</body>
+</html>
